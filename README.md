@@ -8,7 +8,7 @@ kaggle链接：https://www.kaggle.com/c/word2vec-nlp-tutorial/overview
   
  
 
-给出两段代码，都值得借鉴：
+给出两段代码，都值得借鉴：  
 
 第一个是，lstm实现的pytorch版本，调参以后从0.90569提升到了0.95718（主要是优化器用adam,学习率用0.001，句子长度设置为200），排名大概是100/577，前17%
 
