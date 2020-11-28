@@ -3,8 +3,9 @@ two ways to solve problems, lstm and bert
 
 kaggle链接：https://www.kaggle.com/c/word2vec-nlp-tutorial/overview
 
-简介：给出 50,000 IMDB movie reviews，进行0和1情感二分类
-
+简介：给出 50,000 IMDB movie reviews，进行0和1情感二分类  
+  
+  
  
 
 给出两段代码，都值得借鉴：
