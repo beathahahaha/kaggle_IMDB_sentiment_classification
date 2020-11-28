@@ -9,9 +9,10 @@ kaggle链接：https://www.kaggle.com/c/word2vec-nlp-tutorial/overview
 
 给出两段代码，都值得借鉴：  
 
-第一个是，lstm实现的pytorch版本，调参以后从0.90569提升到了0.95718（主要是优化器用adam,学习率用0.001，句子长度设置为200），排名大概是100/577，前17%，其实还可以进一步提高    
+*第一个是，lstm实现的pytorch版本，调参以后从0.90569提升到了0.95718（主要是优化器用adam,学习率用0.001，句子长度设置为200），排名大概是100/577，前17%，其实还可以进一步提高
+  
 
-未来的建议：结合word2vec，试一试xgboost和bilstm（可以参考kaggle上其他人的解答）     
+*未来的建议：结合word2vec，试一试xgboost和bilstm（可以参考kaggle上其他人的解答）     
 
  
 ****
