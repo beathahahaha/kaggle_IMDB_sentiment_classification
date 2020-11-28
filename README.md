@@ -10,7 +10,8 @@ kaggle链接：https://www.kaggle.com/c/word2vec-nlp-tutorial/overview
 给出两段代码，都值得借鉴：  
 
 * 第一个是，lstm实现的pytorch版本，调参以后从0.90569提升到了0.95718（主要是优化器用adam,学习率用0.001，句子长度设置为200），排名大概是100/577，前17%，其实还可以进一步提高
-环境：python 3,pytorch 1.3.1
+
+ 环境：python 3,pytorch 1.3.1
   
 
 * 未来的建议：结合word2vec，试一试xgboost和bilstm（可以参考kaggle上其他人的解答）     
@@ -18,7 +19,8 @@ kaggle链接：https://www.kaggle.com/c/word2vec-nlp-tutorial/overview
  
 ****
 * 第二个是，利用github开源的bert模型进行训练，（但是没有用到官网给的语料库unlabeledTrainData.tsv， 第一个代码的gensim中的word2vec用到了），二分类情感分类模型
-环境： python 3 ， tensorflow 1.12
+
+ 环境： python 3 ， tensorflow 1.12
 
 * 虽然用到了预训练模型，但是效果还是没有那么好，最后效果大概是0.90896.
 
