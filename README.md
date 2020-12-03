@@ -13,7 +13,9 @@ bert代码使用方法：
 （建议先阅读https://github.com/wangjiwu/BERT-sentiment--classification）
 
 一、准备好数据
-第一是准备与训练数据在uncased目录下，需要从bert，github官网下载uncased预训练模型
+
+第一是准备预训练数据在uncased目录下，需要从bert，github官网下载uncased预训练模型
+
 第二是准备训练测试数据，格式要和bert中的一致（process_data.ipynb的作用）,把（未拆分9:1的数据）data.tsv和test.tsv文件放在glue下（bert用的都是tsv文件）
 
 二、执行data_cut_off.py
