@@ -9,7 +9,9 @@ kaggle链接：https://www.kaggle.com/c/word2vec-nlp-tutorial/overview
 LSTM代码只要放好train和test数据，运行ipynb文件即可（并且该代码可复用，原数据格式修改后，只要保证ipynb处理数据得到的X和y格式正确即可）
 
 bert代码使用方法：
+
 （建议先阅读https://github.com/wangjiwu/BERT-sentiment--classification）
+
 一、准备好数据
 第一是准备与训练数据在uncased目录下，需要从bert，github官网下载uncased预训练模型
 第二是准备训练测试数据，格式要和bert中的一致（process_data.ipynb的作用）,把（未拆分9:1的数据）data.tsv和test.tsv文件放在glue下（bert用的都是tsv文件）
